@@ -1,6 +1,6 @@
 class Solution {
   public int[] intersect(int[] nums1, int[] nums2) {
-    if (nuns1.length>nuns2.length)
+    if (nums1.length>nuns2.length)
       return intersect(nums2, nums1);
 
     List<Integer> ans = new ArrayList<>();
